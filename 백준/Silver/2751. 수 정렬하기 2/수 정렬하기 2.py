@@ -6,7 +6,7 @@ n = int(sys.stdin.readline())
 nlist = []
 
 for i in range(n):
-    nlist.append(int(int(sys.stdin.readline())))
+    nlist.append(int(sys.stdin.readline()))
 
 def heap_sort(nlist):
     heap = []
